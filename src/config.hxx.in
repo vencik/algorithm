@@ -1,0 +1,8 @@
+#ifndef algorithm_config_hxx
+#define algorithm_config_hxx
+
+#define ALGORITHM_VERSION_MAJOR @ALGORITHM_VERSION_MAJOR@
+#define ALGORITHM_VERSION_MINOR @ALGORITHM_VERSION_MINOR@
+#define ALGORITHM_VERSION_PATCH @ALGORITHM_VERSION_PATCH@
+
+#endif  // end of #ifndef algorithm_config_hxx
