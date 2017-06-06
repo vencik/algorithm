@@ -15,3 +15,4 @@ echo "Build directory: $build_dir"
 cd "$build_dir"
 cmake "$source_dir"
 make
+make test

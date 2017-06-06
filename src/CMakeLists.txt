@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project("Various algorithms" CXX)
+enable_testing()
 
 # Version
 set(ALGORITHM_VERSION_MAJOR 0)
@@ -20,3 +21,4 @@ include_directories("${PROJECT_BINARY_DIR}")
 # Subdirectories
 add_subdirectory(algorithm)
 add_subdirectory(cli)
+add_subdirectory(unit_test)

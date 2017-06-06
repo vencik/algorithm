@@ -1,4 +1,4 @@
-# Levenshtein distance etc.
+# Levenshtein distance etc
 add_executable(levenshtein levenshtein.cxx)
 
 target_link_libraries(levenshtein
