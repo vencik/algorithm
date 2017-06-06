@@ -1,0 +1,50 @@
+Various algorithms implementations
+==================================
+
+
+Disclaimer
+----------
+
+*This is work in progress.*
+
+
+List of algorithms
+------------------
+
+* Levenshtein distance and similarity
+
+
+Build and installation
+----------------------
+
+You need C\++ compiler with support for C++11.
+Recent enough gcc (4.9) or newer is OK.
+You also need cmake and make.
+
+On Debian-based systems, the following shoud get the above:
+----
+# apt-get install g++ cmake make git
+----
+
+Clone the project:
+----
+$ git clone https://github.com/vencik/algorithm.git
+----
+
+Build the project:
+----
+$ cd algorithm
+$ ./build.sh
+----
+
+
+License
+-------
+
+The software is available opensource under the terms of 3-clause BSD license.
+
+
+Author
+------
+
+Vaclav Krpec  <vencik@razdva.cz>
