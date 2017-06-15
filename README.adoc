@@ -12,6 +12,9 @@ List of algorithms
 ------------------
 
 * Levenshtein distance and similarity
+* Hirshberg's string alignment
+
+For all the algorithms there are simple to use command line utilities.
 
 
 Build and installation
@@ -21,7 +24,7 @@ You need C\++ compiler with support for C++11.
 Recent enough gcc (4.9) or newer is OK.
 You also need cmake and make.
 
-On Debian-based systems, the following shoud get the above:
+On Debian-based systems, the following should get the above:
 ----
 # apt-get install g++ cmake make git
 ----
@@ -41,10 +44,10 @@ $ ./build.sh
 License
 -------
 
-The software is available opensource under the terms of 3-clause BSD license.
+The software is available open-source under the terms of 3-clause BSD license.
 
 
 Author
 ------
 
-Vaclav Krpec  <vencik@razdva.cz>
+Václav Krpec  <vencik@razdva.cz>
