@@ -15,6 +15,9 @@ configure_file(
 # C++ flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -Werror --std=c++11 -O2")
 
+# Top-level include path
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}")
+
 # Allow inclusion of the config. header file
 include_directories("${PROJECT_BINARY_DIR}")
 

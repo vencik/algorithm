@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 project_dir=$(realpath "$0" | xargs dirname)
 
 source_dir="$project_dir/src"
